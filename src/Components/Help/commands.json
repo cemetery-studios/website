@@ -1,0 +1,2171 @@
+{
+    "commands": [
+        {
+            "name": "starboard",
+            "category": "Config",
+            "description": "Not Provided",
+            "usage": "starboard "
+        },
+        {
+            "name": "starboard remove",
+            "category": "Config",
+            "description": "remove starboard",
+            "usage": "starboard remove "
+        },
+        {
+            "name": "starboard channel",
+            "category": "Config",
+            "description": "configure the starboard channel",
+            "usage": "starboard channel [channel]"
+        },
+        {
+            "name": "starboard emoji",
+            "category": "Config",
+            "description": "configure the starboard emoji",
+            "usage": "starboard emoji [emoji]"
+        },
+        {
+            "name": "starboard count",
+            "category": "Config",
+            "description": "modify the starboard count",
+            "usage": "starboard count [count]"
+        },
+        {
+            "name": "starboard stats",
+            "category": "Config",
+            "description": "check starboard stats",
+            "usage": "starboard stats "
+        },
+        {
+            "name": "esex",
+            "category": "Fun",
+            "description": "join vc and make some noise",
+            "usage": "esex "
+        },
+        {
+            "name": "autoresponder",
+            "category": "Autoresponder",
+            "description": "utility",
+            "usage": "autoresponder [subcommand] [trigger] [response]"
+        },
+        {
+            "name": "ban",
+            "category": "Moderation",
+            "description": "Bans the user from the server",
+            "usage": "ban <member> [reason]"
+        },
+        {
+            "name": "clone",
+            "category": "Moderation",
+            "description": "Clones the channel",
+            "usage": "clone [channel]"
+        },
+        {
+            "name": "guilds",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "guilds "
+        },
+        {
+            "name": "clock",
+            "category": "Fun",
+            "description": "Not Provided",
+            "usage": "clock "
+        },
+        {
+            "name": "clock in",
+            "category": "Fun",
+            "description": "clock in",
+            "usage": "clock in "
+        },
+        {
+            "name": "clock out",
+            "category": "Fun",
+            "description": "clock out",
+            "usage": "clock out "
+        },
+        {
+            "name": "scan",
+            "category": "Moderation",
+            "description": "Shows the help page for scan commands",
+            "usage": "scan "
+        },
+        {
+            "name": "scan users",
+            "category": "Moderation",
+            "description": "Shows All users having Key Permissions",
+            "usage": "scan users "
+        },
+        {
+            "name": "scan roles",
+            "category": "Moderation",
+            "description": "Show Permissions of all roles",
+            "usage": "scan roles "
+        },
+        {
+            "name": "scan bots",
+            "category": "Moderation",
+            "description": "Shows All bots having Key Permissions",
+            "usage": "scan bots "
+        },
+        {
+            "name": "scan permissions",
+            "category": "Moderation",
+            "description": "Not Provided",
+            "usage": "scan permissions "
+        },
+        {
+            "name": "uptime",
+            "category": "General",
+            "description": "Shows you Bot's Uptime",
+            "usage": "uptime "
+        },
+        {
+            "name": "uwufy",
+            "category": "Memes",
+            "description": "Not Provided",
+            "usage": "uwufy [message]"
+        },
+        {
+            "name": "welcome",
+            "category": "Welcome",
+            "description": "Shows the help menu for welcome",
+            "usage": "welcome "
+        },
+        {
+            "name": "welcome keywords",
+            "category": "Welcome",
+            "description": "Shows the keyword to use for setting the message",
+            "usage": "welcome keywords "
+        },
+        {
+            "name": "welcome reset",
+            "category": "Welcome",
+            "description": "Resets the welcome settings for the server",
+            "usage": "welcome reset "
+        },
+        {
+            "name": "welcome test",
+            "category": "Welcome",
+            "description": "Tests your current welcome settings",
+            "usage": "welcome test "
+        },
+        {
+            "name": "welcome ping",
+            "category": "Welcome",
+            "description": "Toggles the ping for Welcome",
+            "usage": "welcome ping "
+        },
+        {
+            "name": "welcome autodel",
+            "category": "Welcome",
+            "description": "Sets the time for deleting the welcome message",
+            "usage": "welcome autodel <time>"
+        },
+        {
+            "name": "welcome channel",
+            "category": "Welcome",
+            "description": "Sets the channel for welcome",
+            "usage": "welcome channel <channel>"
+        },
+        {
+            "name": "welcome message",
+            "category": "Welcome",
+            "description": "Setup the message for welcome",
+            "usage": "welcome message [message]"
+        },
+        {
+            "name": "welcome embed",
+            "category": "Welcome",
+            "description": "Toggles the embed for welcome",
+            "usage": "welcome embed "
+        },
+        {
+            "name": "welcome embed edit",
+            "category": "Welcome",
+            "description": "To customize welcome embed",
+            "usage": "welcome embed edit "
+        },
+        {
+            "name": "welcome config",
+            "category": "Welcome",
+            "description": "Shows the current Welcome settings",
+            "usage": "welcome config "
+        },
+        {
+            "name": "pagination",
+            "category": "Memes",
+            "description": "Not Provided",
+            "usage": "pagination "
+        },
+        {
+            "name": "comment",
+            "category": "Fun",
+            "description": "send an youtube comment image",
+            "usage": "comment [messsage]"
+        },
+        {
+            "name": "howgay",
+            "category": "Fun",
+            "description": "gay rate an user",
+            "usage": "howgay <member>"
+        },
+        {
+            "name": "setjail",
+            "category": "Jail",
+            "description": "config",
+            "usage": "setjail "
+        },
+        {
+            "name": "clear",
+            "category": "Moderation",
+            "description": "Clears the messages",
+            "usage": "clear <Choice> [Amount]"
+        },
+        {
+            "name": "clear contains",
+            "category": "Moderation",
+            "description": "Clears the messages containing a specifix string",
+            "usage": "clear contains <string>"
+        },
+        {
+            "name": "clear bot",
+            "category": "Moderation",
+            "description": "Clears the messages sent by bot",
+            "usage": "clear bot [prefix] [search=100]"
+        },
+        {
+            "name": "clear reactions",
+            "category": "Moderation",
+            "description": "Clears the reaction from the messages",
+            "usage": "clear reactions [search=100]"
+        },
+        {
+            "name": "clear all",
+            "category": "Moderation",
+            "description": "Clears all messages",
+            "usage": "clear all [search=100]"
+        },
+        {
+            "name": "clear emoji",
+            "category": "Moderation",
+            "description": "Clears the messages having emojis",
+            "usage": "clear emoji [search=100]"
+        },
+        {
+            "name": "clear files",
+            "category": "Moderation",
+            "description": "Clears the messages containing files",
+            "usage": "clear files [search=100]"
+        },
+        {
+            "name": "clear embeds",
+            "category": "Moderation",
+            "description": "Clears the messages containing embeds",
+            "usage": "clear embeds [search=100]"
+        },
+        {
+            "name": "clear images",
+            "category": "Moderation",
+            "description": "Clears the messages containg images",
+            "usage": "clear images [search=100]"
+        },
+        {
+            "name": "clear user",
+            "category": "Moderation",
+            "description": "Clears the messages of a specific user",
+            "usage": "clear user <member> [search=100]"
+        },
+        {
+            "name": "howretarded",
+            "category": "Fun",
+            "description": "retard rate an user",
+            "usage": "howretarded <member>"
+        },
+        {
+            "name": "addemoji",
+            "category": "Moderation",
+            "description": "Adds the emoji to the server",
+            "usage": "addemoji [emoji] [name]"
+        },
+        {
+            "name": "joindm",
+            "category": "Joindm",
+            "description": "Not Provided",
+            "usage": "joindm "
+        },
+        {
+            "name": "joindm config",
+            "category": "Joindm",
+            "description": "config",
+            "usage": "joindm config "
+        },
+        {
+            "name": "joindm test",
+            "category": "Joindm",
+            "description": "config",
+            "usage": "joindm test "
+        },
+        {
+            "name": "joindm delete",
+            "category": "Joindm",
+            "description": "config",
+            "usage": "joindm delete "
+        },
+        {
+            "name": "joindm variables",
+            "category": "Joindm",
+            "description": "config",
+            "usage": "joindm variables "
+        },
+        {
+            "name": "joindm message",
+            "category": "Joindm",
+            "description": "config",
+            "usage": "joindm message [code]"
+        },
+        {
+            "name": "restart",
+            "category": "Owner",
+            "description": "Restarts the bot.",
+            "usage": "restart "
+        },
+        {
+            "name": "roleicon",
+            "category": "Moderation",
+            "description": "Changes the icon for the role",
+            "usage": "roleicon <role> [icon]"
+        },
+        {
+            "name": "delemoji",
+            "category": "Moderation",
+            "description": "Deletes the emoji from the server",
+            "usage": "delemoji [emoji]"
+        },
+        {
+            "name": "blacklist",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "blacklist "
+        },
+        {
+            "name": "blacklist remove",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "blacklist remove <user>"
+        },
+        {
+            "name": "blacklist add",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "blacklist add <user> [reason]"
+        },
+        {
+            "name": "blacklist show",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "blacklist show "
+        },
+        {
+            "name": "typerace",
+            "category": "Fun",
+            "description": "see how fast are you typing",
+            "usage": "typerace "
+        },
+        {
+            "name": "autoreact",
+            "category": "Autoreact",
+            "description": "utility",
+            "usage": "autoreact [subcommand] [trigger] [emoji]"
+        },
+        {
+            "name": "autoreact show",
+            "category": "Autoreact",
+            "description": "Not Provided",
+            "usage": "autoreact show "
+        },
+        {
+            "name": "autoreact delete",
+            "category": "Autoreact",
+            "description": "Not Provided",
+            "usage": "autoreact delete <msg>"
+        },
+        {
+            "name": "autoreact clear",
+            "category": "Autoreact",
+            "description": "Not Provided",
+            "usage": "autoreact clear "
+        },
+        {
+            "name": "autoreact add",
+            "category": "Autoreact",
+            "description": "utility",
+            "usage": "autoreact add [subcommand] [trigger] [emoji]"
+        },
+        {
+            "name": "delsticker",
+            "category": "Moderation",
+            "description": "Delete the sticker from the server",
+            "usage": "delsticker [name]"
+        },
+        {
+            "name": "reload",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "reload <id>"
+        },
+        {
+            "name": "cat",
+            "category": "Fun",
+            "description": "send a random cat image",
+            "usage": "cat "
+        },
+        {
+            "name": "bitches",
+            "category": "Fun",
+            "description": "check how many bitches an user has",
+            "usage": "bitches <member>"
+        },
+        {
+            "name": "8ball",
+            "category": "Fun",
+            "description": "answers to your question",
+            "usage": "8ball [question]"
+        },
+        {
+            "name": "addsticker",
+            "category": "Moderation",
+            "description": "Adds the sticker to the server",
+            "usage": "addsticker [name]"
+        },
+        {
+            "name": "dailygrowth",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "dailygrowth "
+        },
+        {
+            "name": "howcool",
+            "category": "Fun",
+            "description": "cool rate an user",
+            "usage": "howcool <member>"
+        },
+        {
+            "name": "blacktea",
+            "category": "Fun",
+            "description": "play blacktea with your friends",
+            "usage": "blacktea "
+        },
+        {
+            "name": "tweet",
+            "category": "Fun",
+            "description": "send a tweet image",
+            "usage": "tweet [messsage]"
+        },
+        {
+            "name": "setprefix",
+            "category": "Moderation",
+            "description": "Changes the prefix for the bot",
+            "usage": "setprefix <prefix>"
+        },
+        {
+            "name": "designer",
+            "category": "Moderation",
+            "description": "Shows the help menu for designer",
+            "usage": "designer "
+        },
+        {
+            "name": "designer role",
+            "category": "Moderation",
+            "description": "Changes the design for the roles in the server",
+            "usage": "designer role <design>"
+        },
+        {
+            "name": "designer channel",
+            "category": "Moderation",
+            "description": "Changes the design for the channels in the server",
+            "usage": "designer channel <design>"
+        },
+        {
+            "name": "iq",
+            "category": "Fun",
+            "description": "check an user's iq",
+            "usage": "iq <member>"
+        },
+        {
+            "name": "bumpreminder",
+            "category": "Config",
+            "description": "Not Provided",
+            "usage": "bumpreminder "
+        },
+        {
+            "name": "bumpreminder add",
+            "category": "Config",
+            "description": "reminder to bump your server via disboard",
+            "usage": "bumpreminder add "
+        },
+        {
+            "name": "bumpreminder remove",
+            "category": "Config",
+            "description": "remove bump reminder",
+            "usage": "bumpreminder remove "
+        },
+        {
+            "name": "pack",
+            "category": "Fun",
+            "description": "pack someone",
+            "usage": "pack [user]"
+        },
+        {
+            "name": "tictactoe",
+            "category": "Fun",
+            "description": "play tictactoe with your friends",
+            "usage": "tictactoe [member]"
+        },
+        {
+            "name": "snipe",
+            "category": "Moderation",
+            "description": "Snipes the recent message deleted in the channel",
+            "usage": "snipe [channel]"
+        },
+        {
+            "name": "hot",
+            "category": "Fun",
+            "description": "hot rate an user",
+            "usage": "hot <member>"
+        },
+        {
+            "name": "advice",
+            "category": "Fun",
+            "description": "sends a random advice",
+            "usage": "advice "
+        },
+        {
+            "name": "jail",
+            "category": "Jail",
+            "description": "moderation",
+            "usage": "jail [member]"
+        },
+        {
+            "name": "slowmode",
+            "category": "Moderation",
+            "description": "Enables slowmode for the channel",
+            "usage": "slowmode [time]"
+        },
+        {
+            "name": "lockall",
+            "category": "Moderation",
+            "description": "locks all channels in the server",
+            "usage": "lockall "
+        },
+        {
+            "name": "top",
+            "category": "Owner",
+            "description": "Shows the help menu for top",
+            "usage": "top "
+        },
+        {
+            "name": "top guilds",
+            "category": "Owner",
+            "description": "Shows the top guilds of the bot",
+            "usage": "top guilds "
+        },
+        {
+            "name": "top commands",
+            "category": "Owner",
+            "description": "Shows the top commands of the bot",
+            "usage": "top commands "
+        },
+        {
+            "name": "top users",
+            "category": "Owner",
+            "description": "Shows the top users of the bot",
+            "usage": "top users "
+        },
+        {
+            "name": "unsetjail",
+            "category": "Jail",
+            "description": "Not Provided",
+            "usage": "unsetjail "
+        },
+        {
+            "name": "lock",
+            "category": "Moderation",
+            "description": "Locks the channel",
+            "usage": "lock [#channel/id]"
+        },
+        {
+            "name": "ship",
+            "category": "Fun",
+            "description": "ship rate an user",
+            "usage": "ship [member]"
+        },
+        {
+            "name": "unlock",
+            "category": "Moderation",
+            "description": "Unlocks the channel",
+            "usage": "unlock [#channel/id]"
+        },
+        {
+            "name": "unlockall",
+            "category": "Moderation",
+            "description": "Unlocks all channels in the server",
+            "usage": "unlockall "
+        },
+        {
+            "name": "ben",
+            "category": "Fun",
+            "description": "ask a question to ben",
+            "usage": "ben [question]"
+        },
+        {
+            "name": "antinuke",
+            "category": "Antinuke",
+            "description": "Shows the help menu for Antinuke commands",
+            "usage": "antinuke "
+        },
+        {
+            "name": "antinuke anti",
+            "category": "Antinuke",
+            "description": "Enable or disbales a specific event in Security",
+            "usage": "antinuke anti <event>"
+        },
+        {
+            "name": "antinuke whitelisted",
+            "category": "Antinuke",
+            "description": "Not Provided",
+            "usage": "antinuke whitelisted "
+        },
+        {
+            "name": "antinuke config",
+            "category": "Antinuke",
+            "description": "Shows the current settings for Security of the server",
+            "usage": "antinuke config "
+        },
+        {
+            "name": "antinuke blacklist",
+            "category": "Antinuke",
+            "description": "To remove a whitelisted user from Security",
+            "usage": "antinuke blacklist <user>"
+        },
+        {
+            "name": "antinuke punishment",
+            "category": "Antinuke",
+            "description": "<:banhammer:1155963619691986944> To change the punishment for antinuke",
+            "usage": "antinuke punishment "
+        },
+        {
+            "name": "antinuke disable",
+            "category": "Antinuke",
+            "description": "Disables the antinuke for the server",
+            "usage": "antinuke disable "
+        },
+        {
+            "name": "antinuke whitelist",
+            "category": "Antinuke",
+            "description": "To add a whitelisted user for Security",
+            "usage": "antinuke whitelist <user>"
+        },
+        {
+            "name": "antinuke enable",
+            "category": "Antinuke",
+            "description": "Enables the antinuke for the server",
+            "usage": "antinuke enable "
+        },
+        {
+            "name": "hide",
+            "category": "Moderation",
+            "description": "Hides the channel",
+            "usage": "hide [channel] [reason]"
+        },
+        {
+            "name": "hideall",
+            "category": "Moderation",
+            "description": "Hide all channels in the server",
+            "usage": "hideall "
+        },
+        {
+            "name": "uselessfact",
+            "category": "Fun",
+            "description": "return an useless fact",
+            "usage": "uselessfact "
+        },
+        {
+            "name": "ping",
+            "category": "General",
+            "description": "Show's the Ping of bot",
+            "usage": "ping "
+        },
+        {
+            "name": "unhide",
+            "category": "Moderation",
+            "description": "Unhides the channel",
+            "usage": "unhide [channel] [reason]"
+        },
+        {
+            "name": "unhideall",
+            "category": "Moderation",
+            "description": "Unhide all channels in the server",
+            "usage": "unhideall "
+        },
+        {
+            "name": "serverinfo",
+            "category": "General",
+            "description": "Shows information about this server",
+            "usage": "serverinfo "
+        },
+        {
+            "name": "capybara",
+            "category": "Fun",
+            "description": "send a random capybara image",
+            "usage": "capybara "
+        },
+        {
+            "name": "galist",
+            "category": "Owner",
+            "description": "To get the list of all running giveaways in all the server",
+            "usage": "galist "
+        },
+        {
+            "name": "roleinfo",
+            "category": "General",
+            "description": "Shows information about the Role",
+            "usage": "roleinfo <role>"
+        },
+        {
+            "name": "pfp",
+            "category": "Extra",
+            "description": "Shows The help menu for pfp",
+            "usage": "pfp "
+        },
+        {
+            "name": "pfp auto",
+            "category": "Extra",
+            "description": "Shows The help menu for pfp auto",
+            "usage": "pfp auto "
+        },
+        {
+            "name": "pfp auto enable",
+            "category": "Extra",
+            "description": "Not Provided",
+            "usage": "pfp auto enable <channel>"
+        },
+        {
+            "name": "pfp auto disable",
+            "category": "Extra",
+            "description": "Not Provided",
+            "usage": "pfp auto disable "
+        },
+        {
+            "name": "pfp random",
+            "category": "Extra",
+            "description": "Not Provided",
+            "usage": "pfp random <number>"
+        },
+        {
+            "name": "delrole",
+            "category": "Moderation",
+            "description": "Deletes a role in the server",
+            "usage": "delrole <role>"
+        },
+        {
+            "name": "dog",
+            "category": "Fun",
+            "description": "send a random dog image",
+            "usage": "dog "
+        },
+        {
+            "name": "setup",
+            "category": "Extra",
+            "description": "Custom role setup for the server",
+            "usage": "setup "
+        },
+        {
+            "name": "setup config",
+            "category": "Extra",
+            "description": "Shows the current custom role settings for the server",
+            "usage": "setup config "
+        },
+        {
+            "name": "setup create",
+            "category": "Extra",
+            "description": "To add alias for giving and taking specific roles",
+            "usage": "setup create <alias> <role>"
+        },
+        {
+            "name": "setup friend",
+            "category": "Extra",
+            "description": "Setups the friend role for the server",
+            "usage": "setup friend <role>"
+        },
+        {
+            "name": "setup stag",
+            "category": "Extra",
+            "description": "Setups the small tag for the server",
+            "usage": "setup stag <tag>"
+        },
+        {
+            "name": "setup reset",
+            "category": "Extra",
+            "description": "Reset custom role settings for the server",
+            "usage": "setup reset <option>"
+        },
+        {
+            "name": "setup girl",
+            "category": "Extra",
+            "description": "Setups the girl role for the server",
+            "usage": "setup girl <role>"
+        },
+        {
+            "name": "setup staff",
+            "category": "Extra",
+            "description": "Setups the staff role for the server",
+            "usage": "setup staff <role>"
+        },
+        {
+            "name": "setup delete",
+            "category": "Extra",
+            "description": "To remove alias for giving and taking specific roles",
+            "usage": "setup delete <alias>"
+        },
+        {
+            "name": "setup guest",
+            "category": "Extra",
+            "description": "Setups the guest role for the server",
+            "usage": "setup guest <role>"
+        },
+        {
+            "name": "setup reqrole",
+            "category": "Extra",
+            "description": "Setups the required role for the server",
+            "usage": "setup reqrole <role>"
+        },
+        {
+            "name": "setup tag",
+            "category": "Extra",
+            "description": "Setups the tag for the server",
+            "usage": "setup tag <tag>"
+        },
+        {
+            "name": "setup vip",
+            "category": "Extra",
+            "description": "Setups the vip role for the server",
+            "usage": "setup vip <role>"
+        },
+        {
+            "name": "autopfp",
+            "category": "Config",
+            "description": "Not Provided",
+            "usage": "autopfp "
+        },
+        {
+            "name": "autopfp remove",
+            "category": "Config",
+            "description": "remove the autopfp module",
+            "usage": "autopfp remove [genre] [type]\nexample: autopfp remove male gif"
+        },
+        {
+            "name": "autopfp clear",
+            "category": "Config",
+            "description": "clear the whole autopfp module",
+            "usage": "autopfp clear "
+        },
+        {
+            "name": "autopfp add",
+            "category": "Config",
+            "description": "add the autopfp module",
+            "usage": "autopfp add [channel] [genre] [type]\nexample: autopfp add #boys male pfp"
+        },
+        {
+            "name": "userinfo",
+            "category": "General",
+            "description": "Shows information about the user",
+            "usage": "userinfo [member]"
+        },
+        {
+            "name": "urban",
+            "category": "Fun",
+            "description": "sends a definition of a word",
+            "usage": "urban [word]"
+        },
+        {
+            "name": "rrole",
+            "category": "Moderation",
+            "description": "Removes a role from the user",
+            "usage": "rrole <user> <role>"
+        },
+        {
+            "name": "rrole humans",
+            "category": "Moderation",
+            "description": "Removes a role from all the users in the server",
+            "usage": "rrole humans <role>"
+        },
+        {
+            "name": "rrole status",
+            "category": "Moderation",
+            "description": "Shows the status of current remove role process",
+            "usage": "rrole status "
+        },
+        {
+            "name": "rrole all",
+            "category": "Moderation",
+            "description": "Removes a role from all the members in the server",
+            "usage": "rrole all <role>"
+        },
+        {
+            "name": "rrole cancel",
+            "category": "Moderation",
+            "description": "Cancel the current Remove role process",
+            "usage": "rrole cancel "
+        },
+        {
+            "name": "rrole bots",
+            "category": "Moderation",
+            "description": "Removes a role from all the bots in the server",
+            "usage": "rrole bots <role>"
+        },
+        {
+            "name": "servericon",
+            "category": "General",
+            "description": "Shows the server icon",
+            "usage": "servericon "
+        },
+        {
+            "name": "enlarge",
+            "category": "Moderation",
+            "description": "Enlarges an emoji.",
+            "usage": "enlarge <emoji>"
+        },
+        {
+            "name": "listening",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "listening <status> <activity>"
+        },
+        {
+            "name": "bird",
+            "category": "Fun",
+            "description": "send a random bird image",
+            "usage": "bird "
+        },
+        {
+            "name": "addrole",
+            "category": "Moderation",
+            "description": "Created a role in the server",
+            "usage": "addrole <color> <name>"
+        },
+        {
+            "name": "banner",
+            "category": "General",
+            "description": "Shows the banner's help menu",
+            "usage": "banner "
+        },
+        {
+            "name": "banner user",
+            "category": "General",
+            "description": "Shows the user's banner",
+            "usage": "banner user [member]"
+        },
+        {
+            "name": "banner server",
+            "category": "General",
+            "description": "Shows the server's banner",
+            "usage": "banner server "
+        },
+        {
+            "name": "role",
+            "category": "Moderation",
+            "description": "Adds a role to the user",
+            "usage": "role <user> <role>"
+        },
+        {
+            "name": "role bots",
+            "category": "Moderation",
+            "description": "Gives a role to all the bots in the server",
+            "usage": "role bots <role>"
+        },
+        {
+            "name": "role humans",
+            "category": "Moderation",
+            "description": "Gives a role to all the users in the server",
+            "usage": "role humans <role>"
+        },
+        {
+            "name": "role cancel",
+            "category": "Moderation",
+            "description": "Cancel the current adding role process",
+            "usage": "role cancel "
+        },
+        {
+            "name": "role status",
+            "category": "Moderation",
+            "description": "Shows the status of current adding role process",
+            "usage": "role status "
+        },
+        {
+            "name": "role all",
+            "category": "Moderation",
+            "description": "Gives a role to all the members in the server",
+            "usage": "role all <role>"
+        },
+        {
+            "name": "getinvite",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "getinvite <guild_id>"
+        },
+        {
+            "name": "raidmode",
+            "category": "Raidmode",
+            "description": "Shows the raidmode's help menu",
+            "usage": "raidmode "
+        },
+        {
+            "name": "raidmode lockdown",
+            "category": "Raidmode",
+            "description": "Changes the status of lockdown",
+            "usage": "raidmode lockdown "
+        },
+        {
+            "name": "raidmode punishment",
+            "category": "Raidmode",
+            "description": "Changes the punishment for raiding server",
+            "usage": "raidmode punishment "
+        },
+        {
+            "name": "raidmode enable",
+            "category": "Raidmode",
+            "description": "Enables the raidmode",
+            "usage": "raidmode enable "
+        },
+        {
+            "name": "raidmode disable",
+            "category": "Raidmode",
+            "description": "Disables the raidmode",
+            "usage": "raidmode disable "
+        },
+        {
+            "name": "raidmode config",
+            "category": "Raidmode",
+            "description": "Shows the current settings for raidmode",
+            "usage": "raidmode config "
+        },
+        {
+            "name": "raidmode autolockdown",
+            "category": "Raidmode",
+            "description": "Changes the status of autolockdown",
+            "usage": "raidmode autolockdown "
+        },
+        {
+            "name": "pp",
+            "category": "Fun",
+            "description": "Not Provided",
+            "usage": "pp [member=<you>]"
+        },
+        {
+            "name": "nightmode",
+            "category": "Extra",
+            "description": "Shows The help menu for nightmode",
+            "usage": "nightmode "
+        },
+        {
+            "name": "nightmode enable",
+            "category": "Extra",
+            "description": "Enables nightmode for the server",
+            "usage": "nightmode enable <perms>"
+        },
+        {
+            "name": "nightmode disable",
+            "category": "Extra",
+            "description": "Disables nightmode for the server",
+            "usage": "nightmode disable "
+        },
+        {
+            "name": "rockpaperscisssors",
+            "category": "Fun",
+            "description": "play rock paper scissors with the bot",
+            "usage": "rockpaperscisssors "
+        },
+        {
+            "name": "membercount",
+            "category": "General",
+            "description": "Returns the members count for the server",
+            "usage": "membercount "
+        },
+        {
+            "name": "chatgpt",
+            "category": "General",
+            "description": "Given you results for your query from openai",
+            "usage": "chatgpt <prompt>"
+        },
+        {
+            "name": "autorole",
+            "category": "Autorole",
+            "description": "Not Provided",
+            "usage": "autorole "
+        },
+        {
+            "name": "autorole delete",
+            "category": "Autorole",
+            "description": "Not Provided",
+            "usage": "autorole delete <msg>"
+        },
+        {
+            "name": "autorole show",
+            "category": "Autorole",
+            "description": "Not Provided",
+            "usage": "autorole show "
+        },
+        {
+            "name": "autorole add",
+            "category": "Autorole",
+            "description": "Not Provided",
+            "usage": "autorole add <role>"
+        },
+        {
+            "name": "autorole clear",
+            "category": "Autorole",
+            "description": "Not Provided",
+            "usage": "autorole clear "
+        },
+        {
+            "name": "gm",
+            "category": "Fun",
+            "description": "says good morning",
+            "usage": "gm "
+        },
+        {
+            "name": "google",
+            "category": "General",
+            "description": "Search google for your query and returns the top 10 results",
+            "usage": "google <search>"
+        },
+        {
+            "name": "voice",
+            "category": "Voice",
+            "description": "Shows the help menu for voice commands",
+            "usage": "voice "
+        },
+        {
+            "name": "voice mute",
+            "category": "Voice",
+            "description": "Mute a member in vc",
+            "usage": "voice mute <member>"
+        },
+        {
+            "name": "voice deafen",
+            "category": "Voice",
+            "description": "Deafen a member in vc",
+            "usage": "voice deafen <member>"
+        },
+        {
+            "name": "voice moveall",
+            "category": "Voice",
+            "description": "Undeafen all the members in vc",
+            "usage": "voice moveall <channel>"
+        },
+        {
+            "name": "voice unmute",
+            "category": "Voice",
+            "description": "Unmute a member in vc",
+            "usage": "voice unmute <member>"
+        },
+        {
+            "name": "voice undeafen",
+            "category": "Voice",
+            "description": "Undeafen a member in vc",
+            "usage": "voice undeafen <member>"
+        },
+        {
+            "name": "voice unmuteall",
+            "category": "Voice",
+            "description": "Unmute all the members in vc",
+            "usage": "voice unmuteall "
+        },
+        {
+            "name": "voice kick",
+            "category": "Voice",
+            "description": "Disconnects the member from vc",
+            "usage": "voice kick <member>"
+        },
+        {
+            "name": "voice muteall",
+            "category": "Voice",
+            "description": "Mute all the members in vc",
+            "usage": "voice muteall "
+        },
+        {
+            "name": "voice kickall",
+            "category": "Voice",
+            "description": "Disconnects all the members in vc",
+            "usage": "voice kickall "
+        },
+        {
+            "name": "voice undeafenall",
+            "category": "Voice",
+            "description": "Undeafen all the members in vc",
+            "usage": "voice undeafenall "
+        },
+        {
+            "name": "voice deafenall",
+            "category": "Voice",
+            "description": "Deafen all the members in vc",
+            "usage": "voice deafenall "
+        },
+        {
+            "name": "botinfo",
+            "category": "General",
+            "description": "Gets information of the bot",
+            "usage": "botinfo "
+        },
+        {
+            "name": "gleave",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "gleave <guild_id>"
+        },
+        {
+            "name": "dm",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "dm <user> <message>"
+        },
+        {
+            "name": "emsay",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "emsay [channel] <msg>"
+        },
+        {
+            "name": "say",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "say [channel] <msg>"
+        },
+        {
+            "name": "counter",
+            "category": "Config",
+            "description": "create stats counters for your server",
+            "usage": "counter "
+        },
+        {
+            "name": "counter add",
+            "category": "Config",
+            "description": "add a counter to the server",
+            "usage": "counter add "
+        },
+        {
+            "name": "counter add bots",
+            "category": "Config",
+            "description": "add a counter for bots",
+            "usage": "counter add bots [channel type] <channel name>\nexample: ;counter add bots voice {target} bots"
+        },
+        {
+            "name": "counter add humans",
+            "category": "Config",
+            "description": "add a counter for humans",
+            "usage": "counter add humans [channel type] <channel name>\nexample: ;counter add humans voice {target} humans"
+        },
+        {
+            "name": "counter add boosters",
+            "category": "Config",
+            "description": "add a counter for boosters",
+            "usage": "counter add boosters [channel type] <channel name>\nexample: ;counter add boosters voice {target} boosters"
+        },
+        {
+            "name": "counter add members",
+            "category": "Config",
+            "description": "add a counter for member count",
+            "usage": "counter add members [channel type] <channel name>\nexample: ;counter add members voice {target} Members"
+        },
+        {
+            "name": "counter add voice",
+            "category": "Config",
+            "description": "add a counter for voice members",
+            "usage": "counter add voice [channel type] <channel name>\nexample: ;counter add voice stage {target} in vc"
+        },
+        {
+            "name": "counter list",
+            "category": "Config",
+            "description": "check a list of the active server counters",
+            "usage": "counter list "
+        },
+        {
+            "name": "counter types",
+            "category": "Config",
+            "description": "check the counter types and channel types",
+            "usage": "counter types "
+        },
+        {
+            "name": "counter remove",
+            "category": "Config",
+            "description": "remove a counter from the server",
+            "usage": "counter remove [counter type]"
+        },
+        {
+            "name": "warning",
+            "category": "Moderation",
+            "description": "Shows warnings of a specific user",
+            "usage": "warning <user>"
+        },
+        {
+            "name": "warning remove",
+            "category": "Moderation",
+            "description": "Removes a warning from using its id",
+            "usage": "warning remove <id>"
+        },
+        {
+            "name": "warning clear",
+            "category": "Moderation",
+            "description": "Clears warning for a user",
+            "usage": "warning clear <user>"
+        },
+        {
+            "name": "premium",
+            "category": "Premium",
+            "description": "Premium",
+            "usage": "premium "
+        },
+        {
+            "name": "premium activate",
+            "category": "Premium",
+            "description": "Not Provided",
+            "usage": "premium activate [guild]"
+        },
+        {
+            "name": "premium deactivate",
+            "category": "Premium",
+            "description": "Not Provided",
+            "usage": "premium deactivate [guild]"
+        },
+        {
+            "name": "premium show",
+            "category": "Premium",
+            "description": "Not Provided",
+            "usage": "premium show [user]"
+        },
+        {
+            "name": "premium status",
+            "category": "Premium",
+            "description": "Not Provided",
+            "usage": "premium status "
+        },
+        {
+            "name": "premium give",
+            "category": "Premium",
+            "description": "Not Provided",
+            "usage": "premium give <user> <tier> [duration]"
+        },
+        {
+            "name": "premium guilds",
+            "category": "Premium",
+            "description": "Not Provided",
+            "usage": "premium guilds "
+        },
+        {
+            "name": "premium take",
+            "category": "Premium",
+            "description": "Not Provided",
+            "usage": "premium take <user>"
+        },
+        {
+            "name": "premium users",
+            "category": "Premium",
+            "description": "Not Provided",
+            "usage": "premium users "
+        },
+        {
+            "name": "teaminfo",
+            "category": "General",
+            "description": "Shows the informatio of bot's team",
+            "usage": "teaminfo "
+        },
+        {
+            "name": "react",
+            "category": "Config",
+            "description": "react to a message using the bot",
+            "usage": "react [message id / message link] [emoji]"
+        },
+        {
+            "name": "backup",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "backup "
+        },
+        {
+            "name": "profile",
+            "category": "General",
+            "description": "Shows the user's profile for bot",
+            "usage": "profile [member]"
+        },
+        {
+            "name": "profile remove",
+            "category": "General",
+            "description": "Removes the badge from user",
+            "usage": "profile remove <member> <badge>"
+        },
+        {
+            "name": "profile add",
+            "category": "General",
+            "description": "Gives the badge to user",
+            "usage": "profile add <member> <badge>"
+        },
+        {
+            "name": "voicemaster",
+            "category": "Voicemaster",
+            "description": "config",
+            "usage": "voicemaster [subcommand]"
+        },
+        {
+            "name": "anyserverinfo",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "anyserverinfo <guild>"
+        },
+        {
+            "name": "removeowner",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "removeowner <user>"
+        },
+        {
+            "name": "todo",
+            "category": "General",
+            "description": "Shows the help menu for todo commands",
+            "usage": "todo "
+        },
+        {
+            "name": "todo add",
+            "category": "General",
+            "description": "Adds a todo for the user",
+            "usage": "todo add <arguments>"
+        },
+        {
+            "name": "todo remove",
+            "category": "General",
+            "description": "Removes a todo from the user",
+            "usage": "todo remove <number>"
+        },
+        {
+            "name": "todo list",
+            "category": "General",
+            "description": "Shows you your pending todo work",
+            "usage": "todo list "
+        },
+        {
+            "name": "afk",
+            "category": "General",
+            "description": "Changes the afk status of user",
+            "usage": "afk [reason]"
+        },
+        {
+            "name": "listworkowner",
+            "category": "Owner",
+            "description": "List Of Bot's Work Owners",
+            "usage": "listworkowner "
+        },
+        {
+            "name": "listowner",
+            "category": "Owner",
+            "description": "List Of Bot's Owners",
+            "usage": "listowner "
+        },
+        {
+            "name": "mediaonly",
+            "category": "Config",
+            "description": "Not Provided",
+            "usage": "mediaonly "
+        },
+        {
+            "name": "mediaonly add",
+            "category": "Config",
+            "description": "delete messages that are not images",
+            "usage": "mediaonly add [channel]"
+        },
+        {
+            "name": "mediaonly remove",
+            "category": "Config",
+            "description": "unset media only",
+            "usage": "mediaonly remove [channel]"
+        },
+        {
+            "name": "mediaonly list",
+            "category": "Config",
+            "description": "return a list of mediaonly channels",
+            "usage": "mediaonly list "
+        },
+        {
+            "name": "addowner",
+            "category": "Owner",
+            "description": "Not Provided",
+            "usage": "addowner <user>"
+        },
+        {
+            "name": "timeout",
+            "category": "Moderation",
+            "description": "Timeouts a user for specific time\nIf you don't provide the time the user will be timeout for 5 minutes",
+            "usage": "timeout <member> [time]"
+        },
+        {
+            "name": "meme",
+            "category": "Memes",
+            "description": "Finds and returns a random subreddit memes",
+            "usage": "meme Send_message"
+        },
+        {
+            "name": "rgirl",
+            "category": "Extra",
+            "description": "Removes the girls role from the user",
+            "usage": "rgirl <user>"
+        },
+        {
+            "name": "unmute",
+            "category": "Moderation",
+            "description": "Removes the timeout from the user",
+            "usage": "unmute <member>"
+        },
+        {
+            "name": "rguest",
+            "category": "Extra",
+            "description": "Removes the guest role from the user",
+            "usage": "rguest <user>"
+        },
+        {
+            "name": "selfrole",
+            "category": "Selfroles",
+            "description": "Show's the help menu for selfroles",
+            "usage": "selfrole "
+        },
+        {
+            "name": "selfrole delete",
+            "category": "Selfroles",
+            "description": "Deletes a selfrole panel from the server",
+            "usage": "selfrole delete <message_id>"
+        },
+        {
+            "name": "selfrole edit",
+            "category": "Selfroles",
+            "description": "Edis a selfrole panel from the server",
+            "usage": "selfrole edit <message_id>"
+        },
+        {
+            "name": "selfrole list",
+            "category": "Selfroles",
+            "description": "Shows you the current selfrole panels of the server",
+            "usage": "selfrole list "
+        },
+        {
+            "name": "selfrole create",
+            "category": "Selfroles",
+            "description": "Create a selfrole panel",
+            "usage": "selfrole create "
+        },
+        {
+            "name": "rvip",
+            "category": "Extra",
+            "description": "Removes the vip role from the user",
+            "usage": "rvip <user>"
+        },
+        {
+            "name": "pingonjoin",
+            "category": "Config",
+            "description": "Not Provided",
+            "usage": "pingonjoin "
+        },
+        {
+            "name": "pingonjoin list",
+            "category": "Config",
+            "description": "get a list of pingonjoin channels",
+            "usage": "pingonjoin list "
+        },
+        {
+            "name": "pingonjoin add",
+            "category": "Config",
+            "description": "ping new members when they join your server",
+            "usage": "pingonjoin add [channel]"
+        },
+        {
+            "name": "pingonjoin remove",
+            "category": "Config",
+            "description": "remove a pingonjoin channel",
+            "usage": "pingonjoin remove <channel>"
+        },
+        {
+            "name": "rfriend",
+            "category": "Extra",
+            "description": "Removes the friend role from the user",
+            "usage": "rfriend <user>"
+        },
+        {
+            "name": "nick",
+            "category": "Moderation",
+            "description": "Changes the user's nickname for the server",
+            "usage": "nick <member> [Name]"
+        },
+        {
+            "name": "gn",
+            "category": "Fun",
+            "description": "says good night",
+            "usage": "gn "
+        },
+        {
+            "name": "kick",
+            "category": "Moderation",
+            "description": "Kicks a member from the server",
+            "usage": "kick <member> [reason]"
+        },
+        {
+            "name": "rstaff",
+            "category": "Extra",
+            "description": "Removes the staff role from the user",
+            "usage": "rstaff <user>"
+        },
+        {
+            "name": "addnopre",
+            "category": "Noprefix",
+            "description": "Not Provided",
+            "usage": "addnopre <server> <user>"
+        },
+        {
+            "name": "girl",
+            "category": "Extra",
+            "description": "Gives girl role to the user",
+            "usage": "girl <user>"
+        },
+        {
+            "name": "choose",
+            "category": "Fun",
+            "description": "choose between options",
+            "usage": "choose [choices separated by a comma]\nexample ;choose apple, pear, carrot"
+        },
+        {
+            "name": "logging",
+            "category": "Logging",
+            "description": "Shows the logging's help menu",
+            "usage": "logging "
+        },
+        {
+            "name": "logging disable",
+            "category": "Logging",
+            "description": "Disable the logs for the server",
+            "usage": "logging disable [channel]"
+        },
+        {
+            "name": "logging config",
+            "category": "Logging",
+            "description": "Shows the current Logging settings",
+            "usage": "logging config "
+        },
+        {
+            "name": "logging enable",
+            "category": "Logging",
+            "description": "Enable the logs for the server",
+            "usage": "logging enable <channel>"
+        },
+        {
+            "name": "guest",
+            "category": "Extra",
+            "description": "Gives guest role to the user",
+            "usage": "guest <user>"
+        },
+        {
+            "name": "unban",
+            "category": "Moderation",
+            "description": "Unbans a member from the server",
+            "usage": "unban <user>"
+        },
+        {
+            "name": "embed",
+            "category": "Moderation",
+            "description": "Creates a embed",
+            "usage": "embed "
+        },
+        {
+            "name": "avatar",
+            "category": "General",
+            "description": "Shows the avatar of user",
+            "usage": "avatar [member]"
+        },
+        {
+            "name": "ignore",
+            "category": "Ignore",
+            "description": "Shows The help menu for ignore",
+            "usage": "ignore "
+        },
+        {
+            "name": "ignore bypass",
+            "category": "Ignore",
+            "description": "Shows The help menu for ignore bypass",
+            "usage": "ignore bypass "
+        },
+        {
+            "name": "ignore bypass role",
+            "category": "Ignore",
+            "description": "Let a role bypass the ignore",
+            "usage": "ignore bypass role "
+        },
+        {
+            "name": "ignore bypass role add",
+            "category": "Ignore",
+            "description": "Adds a role to ignore bypass list",
+            "usage": "ignore bypass role add <role>"
+        },
+        {
+            "name": "ignore bypass role remove",
+            "category": "Ignore",
+            "description": "Removes a role from ignore bypass list",
+            "usage": "ignore bypass role remove <role>"
+        },
+        {
+            "name": "ignore bypass channel",
+            "category": "Ignore",
+            "description": "Let a channel bypass the ignore",
+            "usage": "ignore bypass channel "
+        },
+        {
+            "name": "ignore bypass channel add",
+            "category": "Ignore",
+            "description": "Adds a channel to ignore bypass list",
+            "usage": "ignore bypass channel add <channel>"
+        },
+        {
+            "name": "ignore bypass channel remove",
+            "category": "Ignore",
+            "description": "Removes a channel from ignore bypass list",
+            "usage": "ignore bypass channel remove <channel>"
+        },
+        {
+            "name": "ignore bypass user",
+            "category": "Ignore",
+            "description": "Let a user bypass the ignore",
+            "usage": "ignore bypass user "
+        },
+        {
+            "name": "ignore bypass user add",
+            "category": "Ignore",
+            "description": "Adds a user to ignore bypass list",
+            "usage": "ignore bypass user add <user>"
+        },
+        {
+            "name": "ignore bypass user remove",
+            "category": "Ignore",
+            "description": "Removes a user from ignore bypass list",
+            "usage": "ignore bypass user remove <user>"
+        },
+        {
+            "name": "ignore role",
+            "category": "Ignore",
+            "description": "Shows The help menu for ignore role",
+            "usage": "ignore role "
+        },
+        {
+            "name": "ignore role add",
+            "category": "Ignore",
+            "description": "Adds a role to ignore list",
+            "usage": "ignore role add <role>"
+        },
+        {
+            "name": "ignore role show",
+            "category": "Ignore",
+            "description": "Shows you the current ignored roles list",
+            "usage": "ignore role show "
+        },
+        {
+            "name": "ignore role remove",
+            "category": "Ignore",
+            "description": "Removes a role from ignore list",
+            "usage": "ignore role remove <role>"
+        },
+        {
+            "name": "ignore channel",
+            "category": "Ignore",
+            "description": "Shows The help menu for ignore channel",
+            "usage": "ignore channel "
+        },
+        {
+            "name": "ignore channel add",
+            "category": "Ignore",
+            "description": "Adds a channel to ignore list",
+            "usage": "ignore channel add <channel>"
+        },
+        {
+            "name": "ignore channel remove",
+            "category": "Ignore",
+            "description": "Removes a channel to ignore list",
+            "usage": "ignore channel remove <channel>"
+        },
+        {
+            "name": "ignore channel show",
+            "category": "Ignore",
+            "description": "Shows you the current ignored channels list",
+            "usage": "ignore channel show "
+        },
+        {
+            "name": "ignore module",
+            "category": "Ignore",
+            "description": "Shows The help menu for ignore module",
+            "usage": "ignore module "
+        },
+        {
+            "name": "ignore module add",
+            "category": "Ignore",
+            "description": "Adds a module to ignore list",
+            "usage": "ignore module add <module>"
+        },
+        {
+            "name": "ignore module remove",
+            "category": "Ignore",
+            "description": "Removes a Module from ignore list",
+            "usage": "ignore module remove <module>"
+        },
+        {
+            "name": "ignore module show",
+            "category": "Ignore",
+            "description": "Shows you the current ignored module list",
+            "usage": "ignore module show "
+        },
+        {
+            "name": "ignore command",
+            "category": "Ignore",
+            "description": "Shows The help menu for ignore command",
+            "usage": "ignore command "
+        },
+        {
+            "name": "ignore command add",
+            "category": "Ignore",
+            "description": "Adds a command to ignore list",
+            "usage": "ignore command add <command>"
+        },
+        {
+            "name": "ignore command remove",
+            "category": "Ignore",
+            "description": "Removes a command from ignore list",
+            "usage": "ignore command remove <command>"
+        },
+        {
+            "name": "ignore command show",
+            "category": "Ignore",
+            "description": "Shows you the current ignored commands list",
+            "usage": "ignore command show "
+        },
+        {
+            "name": "ignore user",
+            "category": "Ignore",
+            "description": "Shows The help menu for ignore user",
+            "usage": "ignore user "
+        },
+        {
+            "name": "ignore user show",
+            "category": "Ignore",
+            "description": "Shows you the current ignored users list",
+            "usage": "ignore user show "
+        },
+        {
+            "name": "ignore user add",
+            "category": "Ignore",
+            "description": "Adds a user to ignore list",
+            "usage": "ignore user add <user>"
+        },
+        {
+            "name": "ignore user remove",
+            "category": "Ignore",
+            "description": "Removes a user from ignore list",
+            "usage": "ignore user remove <user>"
+        },
+        {
+            "name": "spotifytrack",
+            "category": "Spotify",
+            "description": "Not Provided",
+            "usage": "spotifytrack [user]"
+        },
+        {
+            "name": "removenopre",
+            "category": "Noprefix",
+            "description": "Not Provided",
+            "usage": "removenopre <server> <user>"
+        },
+        {
+            "name": "list",
+            "category": "General",
+            "description": "Shows the help menu for list commands",
+            "usage": "list "
+        },
+        {
+            "name": "list inrole",
+            "category": "General",
+            "description": "Shows the list of members in a role",
+            "usage": "list inrole <role>"
+        },
+        {
+            "name": "list roles",
+            "category": "General",
+            "description": "Shows all the roles in the server",
+            "usage": "list roles "
+        },
+        {
+            "name": "list createpos",
+            "category": "General",
+            "description": "Shows the position of creation of all id in the server",
+            "usage": "list createpos "
+        },
+        {
+            "name": "list admins",
+            "category": "General",
+            "description": "Shows a list of all admins in the server",
+            "usage": "list admins "
+        },
+        {
+            "name": "list bots",
+            "category": "General",
+            "description": "Shows a list of all bots in server",
+            "usage": "list bots "
+        },
+        {
+            "name": "list early",
+            "category": "General",
+            "description": "Shows the list of early supporter ids in the server",
+            "usage": "list early "
+        },
+        {
+            "name": "list mods",
+            "category": "General",
+            "description": "Shows the list of all mods in the server",
+            "usage": "list mods "
+        },
+        {
+            "name": "list boosters",
+            "category": "General",
+            "description": "Shows the list of boosters of the server",
+            "usage": "list boosters "
+        },
+        {
+            "name": "list botemojis",
+            "category": "General",
+            "description": "Shows a list of all emojis the bot can see",
+            "usage": "list botemojis "
+        },
+        {
+            "name": "list bans",
+            "category": "General",
+            "description": "Shows the list of banned members in the server",
+            "usage": "list bans "
+        },
+        {
+            "name": "list joinpos",
+            "category": "General",
+            "description": "Shows the join position of every user in the server",
+            "usage": "list joinpos "
+        },
+        {
+            "name": "list emojis",
+            "category": "General",
+            "description": "Shows a list of all emojis in the server",
+            "usage": "list emojis "
+        },
+        {
+            "name": "vip",
+            "category": "Extra",
+            "description": "Gives vip role to the user",
+            "usage": "vip <user>"
+        },
+        {
+            "name": "warn",
+            "category": "Moderation",
+            "description": "Warns the user",
+            "usage": "warn <user> [reason]"
+        },
+        {
+            "name": "confessions",
+            "category": "Config",
+            "description": "Not Provided",
+            "usage": "confessions "
+        },
+        {
+            "name": "confessions mute",
+            "category": "Config",
+            "description": "mute a member that send a specific confession",
+            "usage": "confessions mute [confession number]"
+        },
+        {
+            "name": "confessions unmute",
+            "category": "Config",
+            "description": "unmute a member that send a specific confession",
+            "usage": "confessions unmute [confession count | all (unmutes all members)]"
+        },
+        {
+            "name": "confessions channel",
+            "category": "Config",
+            "description": "get the confessions channel",
+            "usage": "confessions channel "
+        },
+        {
+            "name": "confessions add",
+            "category": "Config",
+            "description": "set confession channel",
+            "usage": "confessions add [channel]"
+        },
+        {
+            "name": "confessions remove",
+            "category": "Config",
+            "description": "remove confession channel",
+            "usage": "confessions remove "
+        },
+        {
+            "name": "gstart",
+            "category": "Giveaway",
+            "description": "Creates a giveaway.",
+            "usage": "gstart <time> <winners> <prize>"
+        },
+        {
+            "name": "chatfilter",
+            "category": "Chatfilter",
+            "description": "config",
+            "usage": "chatfilter [subcommand] [word]"
+        },
+        {
+            "name": "unjail",
+            "category": "Jail",
+            "description": "moderation",
+            "usage": "unjail [member]"
+        },
+        {
+            "name": "unbanall",
+            "category": "Moderation",
+            "description": "Unban all the banned members in the server",
+            "usage": "unbanall "
+        },
+        {
+            "name": "friend",
+            "category": "Extra",
+            "description": "Gives the friend role to the user",
+            "usage": "friend <user>"
+        },
+        {
+            "name": "quickpoll",
+            "category": "Fun",
+            "description": "start a quick poll",
+            "usage": "quickpoll <question>"
+        },
+        {
+            "name": "statusnopre",
+            "category": "Noprefix",
+            "description": "Not Provided",
+            "usage": "statusnopre [user]"
+        },
+        {
+            "name": "yes",
+            "category": "Fun",
+            "description": "just says no",
+            "usage": "yes "
+        },
+        {
+            "name": "applied",
+            "category": "Extra",
+            "description": "Not Provided",
+            "usage": "applied "
+        },
+        {
+            "name": "no",
+            "category": "Fun",
+            "description": "just says yes",
+            "usage": "no "
+        },
+        {
+            "name": "gend",
+            "category": "Giveaway",
+            "description": "Ends a giveaway. | Reply to the giveaway message or provide ID.",
+            "usage": "gend [message_id]"
+        },
+        {
+            "name": "greroll",
+            "category": "Giveaway",
+            "description": "Rerolls a giveaway. | Reply to the giveaway message.",
+            "usage": "greroll "
+        },
+        {
+            "name": "staff",
+            "category": "Extra",
+            "description": "Gives the staff role to the user",
+            "usage": "staff <user>"
+        },
+        {
+            "name": "coinflip",
+            "category": "Fun",
+            "description": "flip a coin",
+            "usage": "coinflip "
+        },
+        {
+            "name": "greet",
+            "category": "Help",
+            "description": "Not Provided",
+            "usage": "greet "
+        },
+        {
+            "name": "prefix",
+            "category": "Moderation",
+            "description": "Shows the current prefix",
+            "usage": "prefix "
+        },
+        {
+            "name": "invc",
+            "category": "Invc",
+            "description": "Shows the invc's help menu",
+            "usage": "invc "
+        },
+        {
+            "name": "invc config",
+            "category": "Invc",
+            "description": "Shows the current invc role settings",
+            "usage": "invc config "
+        },
+        {
+            "name": "invc disable",
+            "category": "Invc",
+            "description": "Disable the logs for the server",
+            "usage": "invc disable [role]"
+        },
+        {
+            "name": "invc enable",
+            "category": "Invc",
+            "description": "Enable the logs for the server",
+            "usage": "invc enable <role>"
+        },
+        {
+            "name": "ticket",
+            "category": "Ticket",
+            "description": "Shows the help menu for ticket commands",
+            "usage": "ticket "
+        },
+        {
+            "name": "ticket edit",
+            "category": "Ticket",
+            "description": "Let you edit the ticket",
+            "usage": "ticket edit "
+        },
+        {
+            "name": "ticket create",
+            "category": "Ticket",
+            "description": "Creates a ticket panel for the server",
+            "usage": "ticket create "
+        },
+        {
+            "name": "ticket delete",
+            "category": "Ticket",
+            "description": "Deletes a ticket panel for the server",
+            "usage": "ticket delete "
+        },
+        {
+            "name": "ticket info",
+            "category": "Ticket",
+            "description": "Gets the information of the ticket",
+            "usage": "ticket info "
+        },
+        {
+            "name": "ticket reopen",
+            "category": "Ticket",
+            "description": "Reopens a ticket panel for the server",
+            "usage": "ticket reopen <channel>"
+        }
+    ],
+    "commandCount": 361
+}

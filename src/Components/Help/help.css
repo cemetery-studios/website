@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Work+Sans:wght@100;400&display=swap");
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+}
+
+.main_help{
+    animation: appear 3s;
+    display: flex;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #070606;
+}
+
+.sidebar {
+    width: 210px;
+    background-color: #000000;
+    padding: 0px 0px 20px 20px;
+}
+
+.commands-container {
+    flex: 1;
+    background: #000000;
+    padding: 0px 0px 20px 20px;
+    overflow-y: auto;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #070606;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.tab:hover{
+    background-color: #110e0e;
+}
+
+.tab.active {
+    background-color: #0c0c0c;
+}
+
+.command-box {
+    background-color: #0c0c0c;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.command-box h3 {
+    color: #ffffff;
+    font:bolder;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.command-box p {
+    color: #ffffff;
+    font-size: 0.8em;
+}
+
+@media only screen and (min-width: 600px) {
+    .sidebar {
+        display: block;
+    }
+
+    .commands-container {
+        width: calc(100% - 70px);
+        max-width: calc(100% - 70px);
+    }
+}

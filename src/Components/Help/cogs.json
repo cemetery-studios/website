@@ -1,0 +1,92 @@
+{
+    "cogs": [
+        {
+            "name": "all"
+        },
+        {
+            "name": "autoreact"
+        },
+        {
+            "name": "voice"
+        },
+        {
+            "name": "config"
+        },
+        {
+            "name": "ignore"
+        },
+        {
+            "name": "autorole"
+        },
+        {
+            "name": "moderation"
+        },
+        {
+            "name": "joindm"
+        },
+        {
+            "name": "ticket"
+        },
+        {
+            "name": "spotify"
+        },
+        {
+            "name": "VoiceMaster"
+        },
+        {
+            "name": "selfroles"
+        },
+        {
+            "name": "jail"
+        },
+        {
+            "name": "antinuke"
+        },
+        {
+            "name": "logging"
+        },
+        {
+            "name": "Firstmessage"
+        },
+        {
+            "name": "raidmode"
+        },
+        {
+            "name": "Giveaway"
+        },
+        {
+            "name": "premium"
+        },
+        {
+            "name": "event"
+        },
+        {
+            "name": "general"
+        },
+        {
+            "name": "Help"
+        },
+        {
+            "name": "fun"
+        },
+        {
+            "name": "welcome"
+        },
+        {
+            "name": "extra"
+        },
+        {
+            "name": "memeS"
+        },
+        {
+            "name": "autoresponder"
+        },
+        {
+            "name": "invc"
+        },
+        {
+            "name": "chatfilter"
+        }
+    ],
+    "total": 32
+}
